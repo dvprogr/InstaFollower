@@ -129,6 +129,5 @@ dmypy.json
 .pyre/
 
 # InstaFollower
-!*files/login
 files/*
 selenium/*
