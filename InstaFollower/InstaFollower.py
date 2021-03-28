@@ -29,7 +29,8 @@ class InstaFollower:
             options.add_argument('--remote-debugging-port-9222')
         else:
             options.add_argument("start-maximized")
-
+            
+        options.add_experimental_option('prefs', {'intl.accept_languages': 'en,en_US'})
         options.add_argument("lang=en")
         options.add_argument("user-data-dir=selenium")  # save cookies
         self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
@@ -56,7 +57,7 @@ class InstaFollower:
             print("User not logged in. No cookies from previous session available")
             print("logging in user...")
 
-            time.sleep(1)
+            time.sleep(5)
 
             try:
                 cookies_banner_accept_btn = self.driver.find_element_by_xpath(webElements.COOKIE_BANNER)
