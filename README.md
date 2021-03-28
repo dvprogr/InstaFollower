@@ -1,8 +1,12 @@
 # InstaFollower
 Tool for getting Instagram: Followers - Non-Followers and Unfollowers
 
+Working (tested only on)
+- macOS
+- Windows
+
 Before you start using InstaFollower you need to install the requirements.txt.
-- Tested on Python 3.8.6
+- Tested with Python 3.8.6+
 - pip install -r requirements.txt or python -m pip install -r requirements.txt
 - Install chromedriver (needed to parse all users from profile)
 
