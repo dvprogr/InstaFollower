@@ -28,7 +28,9 @@ To start InstaFollower run main.py -u "username" -p "yourpassword"
 
 Alternatively you can type in the password in files/login - so everytime you start the program you need to pass your username as an argument only.
 
-- main.py -u yourUserName
+```
+main.py -u yourUserName
+```
 
 
 __Login is needed only once - it will safe the cookies for future sessions.__
