@@ -24,7 +24,11 @@ Before you start using InstaFollower you need to install the requirements.txt.
 - Install chromedriver (needed to parse all users from profile)
 
 ## Tutorial
-To start InstaFollower run main.py -u "username" -p "yourpassword"
+To start InstaFollower run 
+
+```
+main.py -u "username" -p "yourpassword"
+```
 
 Alternatively you can type in the password in files/login - so everytime you start the program you need to pass your username as an argument only.
 
