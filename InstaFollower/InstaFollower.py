@@ -232,7 +232,7 @@ class InstaFollower:
 
         if file_name == InstaUtils.followers_path:
             if InstaUtils.file_exists(InstaUtils.followers_path):
-                os.rename(InstaUtils.followers_path, InstaUtils.followers_old_path)
+                os.remove(InstaUtils.followers_path)
 
         with open(file_name, 'a') as file:
             # scroll down
